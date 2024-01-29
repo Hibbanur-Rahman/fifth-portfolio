@@ -4,7 +4,8 @@ import "./App.css";
 import About from "./views/About";
 import Contact from "./views/Contact";
 import Portfolio from "./views/Portfolio";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
+
+      <Footer />
     </Router>
   );
 }

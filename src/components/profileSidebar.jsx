@@ -1,7 +1,7 @@
 const ProfileSidebar=()=>{
     return (
         <>
-        
+        <h1>Profile Sidebar</h1>
         </>
     );
 }

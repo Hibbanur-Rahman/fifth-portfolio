@@ -1,0 +1,48 @@
+// for light theme
+$light-white: #f3f6f6;
+$common-black: #000;
+$primary-blue: #1b74e4;
+$theme-secondary: #fa5252;
+$body-text: #44566c;
+$body-heading: #000;
+$heading-black: #0f172a;
+$light-white: #f3f6f6;
+$light-white-2: #f8fbfb;
+$prink: #fff4f4;
+$catkrill: #eef5fa;
+$cyan: rgb(252, 244, 255);
+$rose: rgb(255, 240, 248);
+$yellow: rgb(254, 250, 240);
+
+
+
+//for dark theme
+$common-white: #000;
+$common-black: #fff;
+$theme-primary: #1b74e4;
+$theme-secondary: #fa5252;
+$body-text: #a6a6a6;
+$body-heading: #fff;
+$heading-black: #0f172a;
+$light-white: #f3f6f6;
+$light-white-2: #f8fbfb;
+$prink: #fff4f4;
+$catkrill: #eef5fa;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('../images/page-bg-light.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  

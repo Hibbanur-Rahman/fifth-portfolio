@@ -3,7 +3,7 @@ import logo from "../assets/images/logo-2.png";
 
 const Navbar = () => {
   return (
-    <div className="row m-0 p-0 justify-content-between p-5">
+    <div className="row m-0 p-0 justify-content-between p-5 mb-5">
       <div className="col-2">
         <img src={logo} alt="logo" />
       </div>

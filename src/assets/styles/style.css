@@ -12,4 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.profileSidebar .profile {
+  background-color: #0f172a;
+  top: -200px;
+}
+.profileSidebar .profile img {
+  height: 250px;
+  width: 100%;
+}
+.profileSidebar .profile-designation {
+  background-color: #f3f6f6;
+}
+.profileSidebar i {
+  background-color: #f3f6f6;
+}
+.profileSidebar .card {
+  padding-top: 150px !important;
+}
+.profileSidebar .contact-details {
+  background-color: #f3f6f6;
+}
+
 /*# sourceMappingURL=style.css.map */

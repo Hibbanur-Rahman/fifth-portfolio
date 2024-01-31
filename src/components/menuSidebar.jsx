@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const MenuSidebar = () => {
   return (
-    <>
+    <div className="col-3 m-0 p-0">
       <h1>Menu Sidebar</h1>
       <ul>
         <li>
@@ -14,7 +14,7 @@ const MenuSidebar = () => {
           <Link to="/portfolio">Portfolio</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

@@ -12,15 +12,18 @@ function App() {
   return (
     <Router>
       {/* Include your navigation bar */}
-      <Navbar  />
+      <Navbar />
       {/* Define your routes */}
-      <ProfileSidebar />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
-      <MenuSidebar/>
+      <div className="row m-0 p-0">
+        <ProfileSidebar />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+        <MenuSidebar />
+      </div>
+
       <Footer />
     </Router>
   );

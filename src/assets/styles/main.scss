@@ -46,3 +46,27 @@ body {
       monospace;
   }
   
+  .profileSidebar{
+    // margin-top: 100px !important;
+    .profile{
+      background-color: $heading-black;
+      top: -200px;
+      img{
+        height: 250px;
+        width: 100%;
+      }
+    }
+    .profile-designation{
+      background-color: $light-white;
+    }
+    i{
+      background-color:$light-white ;
+    }
+    .card{
+      padding-top: 150px !important;
+    }
+    .contact-details{
+      background-color: $light-white;
+    }
+  }
+ 

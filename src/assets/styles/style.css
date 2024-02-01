@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto Slab", serif;
   background-image: url("../images/page-bg-light.jpg");
   background-size: cover;
   background-position: center;
@@ -31,6 +29,9 @@ code {
 }
 .profileSidebar .contact-details {
   background-color: #f3f6f6;
+}
+.profileSidebar .contact-details i {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

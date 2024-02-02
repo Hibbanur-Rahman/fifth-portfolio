@@ -66,8 +66,22 @@ body {
       i{
         font-size: 25px;
       }
+      .fa-mobile-screen{
+        color: #e93b81 !important;
+      }
+      .fa-envelope-open-text{
+        color: #6ab5b9 !important;
+      }
+      .fa-location-dot{
+        color: #fd7590 !important;
+      }
+      .fa-calendar-days{
+        color: #c17ceb !important;
+      }
       .list-items{
-       
+        p:nth-child(1){
+          font-size: 13px !important;
+        }
       }
     }
   }

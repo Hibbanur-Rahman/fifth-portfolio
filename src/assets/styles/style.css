@@ -33,5 +33,20 @@ code {
 .profileSidebar .contact-details i {
   font-size: 25px;
 }
+.profileSidebar .contact-details .fa-mobile-screen {
+  color: #e93b81 !important;
+}
+.profileSidebar .contact-details .fa-envelope-open-text {
+  color: #6ab5b9 !important;
+}
+.profileSidebar .contact-details .fa-location-dot {
+  color: #fd7590 !important;
+}
+.profileSidebar .contact-details .fa-calendar-days {
+  color: #c17ceb !important;
+}
+.profileSidebar .contact-details .list-items p:nth-child(1) {
+  font-size: 13px !important;
+}
 
 /*# sourceMappingURL=style.css.map */

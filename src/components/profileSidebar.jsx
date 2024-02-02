@@ -20,30 +20,30 @@ const ProfileSidebar = () => {
         <div className="contact-details row m-0 p-3 mt-4 rounded-4 ">
           <div className="d-flex align-items-center ">
             <i class="fa-solid fa-mobile-screen fa-1x p-3 bg-white rounded-2"></i>
-            <div className="list-items">
+            <div className="list-items d-flex justify-content-center flex-column">
               <p className="m-0 p-0 fs-6 text-secondary ">Phone</p>
-              <p className="fs-6">+91 99731 52523</p>
+              <p className="m-0 p-0 fs-6">+91 99731 52523</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-solid fa-envelope-open-text fa-1x p-3 bg-white rounded-2"></i>
-            <div className="list-items">
+            <div className="list-items d-flex justify-content-center flex-column">
               <p className="m-0 p-0 text-secondary ">Email</p>
-              <p className="">hibbanrahmanhyt@gmail.com</p>
+              <p className="m-0 p-0 ">hibbanrahmanhyt@gmail.com</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-solid fa-location-dot fa-1x p-3 bg-white rounded-2"></i>
-            <div className="list-items">
+            <div className="list-items d-flex justify-content-center flex-column">
               <p className="m-0 p-0 text-secondary ">Location</p>
-              <p className="">Hyderabad,India</p>
+              <p className="m-0 p-0 ">Hyderabad,India</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-regular fa-calendar-days fa-1x p-3 bg-white rounded-2"></i>
-            <div className="list-items">
+            <div className="list-items d-flex justify-content-center flex-column">
               <p className="m-0 p-0 text-secondary ">Birthday</p>
-              <p className="">Feb 05,2004</p>
+              <p className="m-0 p-0 ">Feb 05,2004</p>
             </div>
           </div>
         </div>

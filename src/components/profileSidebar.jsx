@@ -20,29 +20,29 @@ const ProfileSidebar = () => {
         <div className="contact-details row m-0 p-3 mt-4 rounded-4 ">
           <div className="d-flex align-items-center ">
             <i class="fa-solid fa-mobile-screen fa-1x p-3 bg-white rounded-2"></i>
-            <div className="">
-              <p className="m-0 p-0">Phone</p>
-              <p className="">+91 99731 52523</p>
+            <div className="list-items">
+              <p className="m-0 p-0 fs-6 text-secondary ">Phone</p>
+              <p className="fs-6">+91 99731 52523</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-solid fa-envelope-open-text fa-1x p-3 bg-white rounded-2"></i>
-            <div className="">
-              <p className="m-0 p-0">Email</p>
+            <div className="list-items">
+              <p className="m-0 p-0 text-secondary ">Email</p>
               <p className="">hibbanrahmanhyt@gmail.com</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-solid fa-location-dot fa-1x p-3 bg-white rounded-2"></i>
-            <div className="">
-              <p className="m-0 p-0">Location</p>
+            <div className="list-items">
+              <p className="m-0 p-0 text-secondary ">Location</p>
               <p className="">Hyderabad,India</p>
             </div>
           </div>
           <div className="d-flex align-items-center">
             <i class="fa-regular fa-calendar-days fa-1x p-3 bg-white rounded-2"></i>
-            <div className="">
-              <p className="m-0 p-0">Birthday</p>
+            <div className="list-items">
+              <p className="m-0 p-0 text-secondary ">Birthday</p>
               <p className="">Feb 05,2004</p>
             </div>
           </div>

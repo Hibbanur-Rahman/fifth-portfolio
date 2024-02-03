@@ -137,16 +137,16 @@ code {
   color: #fff !important;
 }
 
-.about .col-6:nth-child(1) .card {
+.about .col-md-6:nth-child(1) .card {
   background-color: rgb(255, 240, 248);
 }
-.about .col-6:nth-child(2) .card {
+.about .col-md-6:nth-child(2) .card {
   background-color: #eef5fa;
 }
-.about .col-6:nth-child(3) .card {
+.about .col-md-6:nth-child(3) .card {
   background-color: #eef5fa;
 }
-.about .col-6:nth-child(4) .card {
+.about .col-md-6:nth-child(4) .card {
   background-color: rgb(255, 240, 248);
 }
 .about .fa-swatchbook {

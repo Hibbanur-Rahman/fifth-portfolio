@@ -30,59 +30,183 @@ $prink: #fff4f4;
 $catkrill: #eef5fa;
 
 body {
-    margin: 0;
-    font-family: 'Roboto Slab', serif;
-    background-image: url('../images/page-bg-light.jpg');
-    background-size: cover;
-    background-position: center;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-image: url('../images/page-bg-light.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profileSidebar {
+
+
+  // margin-top: 100px !important;
+  .profile {
+    background-color: $heading-black;
+    top: -200px;
+
+    img {
+      height: 250px;
+      width: 100%;
+    }
   }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+
+  .profile-designation {
+    background-color: $light-white;
   }
-  
-  .profileSidebar{
-    // margin-top: 100px !important;
-    .profile{
-      background-color: $heading-black;
-      top: -200px;
-      img{
-        height: 250px;
-        width: 100%;
+
+  i {
+    background-color: $light-white ;
+  }
+
+  .fa-facebook-f {
+    color: #1773ea;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #1773ea;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+
+  .fa-twitter {
+    color: #1c9cea;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #1c9cea;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+
+  .fa-instagram {
+    color: #e12a72;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #e12a72;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+
+  .fa-linkedin-in {
+    color: #144679;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #144679;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+
+    }
+  }
+
+  .card {
+    padding-top: 120px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  }
+
+  .contact-details {
+    background-color: $light-white;
+
+    i {
+      font-size: 25px;
+    }
+
+    .fa-mobile-screen {
+      color: #e93b81 !important;
+    }
+
+    .fa-envelope-open-text {
+      color: #6ab5b9 !important;
+    }
+
+    .fa-location-dot {
+      color: #fd7590 !important;
+    }
+
+    .fa-calendar-days {
+      color: #c17ceb !important;
+    }
+
+    .list-items {
+      p:nth-child(1) {
+        font-size: 13px !important;
       }
     }
-    .profile-designation{
+
+    .icon {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+  }
+
+  button {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
       background-color: $light-white;
+      border: 1px solid $primary-blue;
+      transition: all 0.3s ease-in-out;
+      color: #000 !important;
+
+      i {
+        color: #000 !important;
+      }
     }
-    i{
-      background-color:$light-white ;
+
+    i {
+      background-color: transparent !important;
+
     }
-    .card{
-      padding-top: 150px !important;
-    }
-    .contact-details{
-      background-color: $light-white;
-      i{
-        font-size: 25px;
-      }
-      .fa-mobile-screen{
-        color: #e93b81 !important;
-      }
-      .fa-envelope-open-text{
-        color: #6ab5b9 !important;
-      }
-      .fa-location-dot{
-        color: #fd7590 !important;
-      }
-      .fa-calendar-days{
-        color: #c17ceb !important;
-      }
-      .list-items{
-        p:nth-child(1){
-          font-size: 13px !important;
+  }
+}
+
+.menuSidebar {
+  ul{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+  }
+  .list-item {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    background-color: $light-white;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      transition: all 0.3s ease-in-out;
+
+      background-color: $primary-blue;
+      a{
+        color: #fff !important;
+        i{
+          color: #fff !important;
         }
       }
+      
     }
   }
- 
+
+  a {
+    font-size: 13px;
+    i {
+      color: #292828 !important;
+      font-size: 32px !important;
+    }
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}
+
+

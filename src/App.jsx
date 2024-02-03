@@ -7,6 +7,8 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import ProfileSidebar from "./components/profileSidebar";
 import MenuSidebar from "./components/menuSidebar";
+import Blogs from "./views/blogs";
+import Resume from "./views/resume";
 
 function App() {
   return (
@@ -14,12 +16,14 @@ function App() {
       {/* Include your navigation bar */}
       <Navbar />
       {/* Define your routes */}
-      <div className="row m-0 p-0">
+      <div className="row m-0 p-0 p-3">
         <ProfileSidebar />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/resume" element={<Resume/>} />
         </Routes>
         <MenuSidebar />
       </div>

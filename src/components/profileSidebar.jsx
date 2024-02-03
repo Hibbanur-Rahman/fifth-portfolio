@@ -2,7 +2,7 @@ import profile from "../assets/images/profile-2.png";
 
 const ProfileSidebar = () => {
   return (
-    <div className="profileSidebar col-12 col-md-3 m-0 p-0 d-flex flex-column justify-content-center align-items-center position-relative mt-5">
+    <div className="profileSidebar col-12 col-md-3 m-0 p-0 d-flex flex-column align-items-center position-relative mt-5">
       <div className="profile col-8 rounded-4 position-absolute z-2 mt-5">
         <img src={profile} alt="profile" className="rounded-4" />
       </div>

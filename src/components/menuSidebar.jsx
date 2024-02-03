@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import '../assets/styles/style.css'
 const MenuSidebar = () => {
   return (
-    <div className="menuSidebar col-2 m-0 p-0 d-flex align-items-center justify-content-center">
-      <ul className=" list-unstyled bg-light rounded-4 p-3 col-8">
+    <div className="menuSidebar col-1 m-0 p-0 d-flex align-items-center justify-content-center">
+      <ul className=" list-unstyled bg-light rounded-4 p-3 col-12">
         <li className="list-item rounded-3 p-3 mt-3 mb-3 ">
           <Link to="/" className="text-decoration-none d-flex flex-column align-items-center justify-content-center text-secondary  ">
             <i className="bi bi-person-vcard"></i>

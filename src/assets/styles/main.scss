@@ -42,6 +42,11 @@ code {
     monospace;
 }
 
+.line {
+  height: 2px;
+
+}
+
 .profileSidebar {
 
 
@@ -173,31 +178,36 @@ code {
 }
 
 .menuSidebar {
-  ul{
+  ul {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 
   }
+
   .list-item {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 
     background-color: $light-white;
     transition: all 0.3s ease-in-out;
-    &:hover{
+
+    &:hover {
       transition: all 0.3s ease-in-out;
 
       background-color: $primary-blue;
-      a{
+
+      a {
         color: #fff !important;
-        i{
+
+        i {
           color: #fff !important;
         }
       }
-      
+
     }
   }
 
   a {
     font-size: 13px;
+
     i {
       color: #292828 !important;
       font-size: 32px !important;
@@ -210,3 +220,37 @@ code {
 }
 
 
+.about {
+
+  .col-6:nth-child(1) .card{
+    background-color: $rose;
+  }
+  .col-6:nth-child(2) .card{
+    background-color: $catkrill;
+  }
+  .col-6:nth-child(3) .card{
+    background-color: $catkrill;
+  }
+  .col-6:nth-child(4) .card{
+    background-color: $rose;
+  }
+  .fa-swatchbook {
+    color: #d566ff;
+  }
+
+  .bi-grid {
+    color: #ff6080;
+  }
+
+  .fa-camera-retro {
+    color: #ff6080;
+  }
+
+  .bi-code-slash {
+    color: #269fff;
+  }
+
+  .client{
+    background-color: $light-white;
+  }
+}

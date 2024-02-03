@@ -10,6 +10,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.line {
+  height: 2px;
+}
+
 .profileSidebar .profile {
   background-color: #0f172a;
   top: -200px;
@@ -131,6 +135,34 @@ code {
 }
 .menuSidebar a:hover {
   color: #fff !important;
+}
+
+.about .col-6:nth-child(1) .card {
+  background-color: rgb(255, 240, 248);
+}
+.about .col-6:nth-child(2) .card {
+  background-color: #eef5fa;
+}
+.about .col-6:nth-child(3) .card {
+  background-color: #eef5fa;
+}
+.about .col-6:nth-child(4) .card {
+  background-color: rgb(255, 240, 248);
+}
+.about .fa-swatchbook {
+  color: #d566ff;
+}
+.about .bi-grid {
+  color: #ff6080;
+}
+.about .fa-camera-retro {
+  color: #ff6080;
+}
+.about .bi-code-slash {
+  color: #269fff;
+}
+.about .client {
+  background-color: #f3f6f6;
 }
 
 /*# sourceMappingURL=style.css.map */

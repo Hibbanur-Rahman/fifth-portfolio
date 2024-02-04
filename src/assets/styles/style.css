@@ -15,18 +15,11 @@ code {
 }
 
 .profileSidebar .profile {
-  background-color: #0f172a;
   top: -200px;
 }
 .profileSidebar .profile img {
   height: 250px;
   width: 100%;
-}
-.profileSidebar .profile-designation {
-  background-color: #f3f6f6;
-}
-.profileSidebar i {
-  background-color: #f3f6f6;
 }
 .profileSidebar .fa-facebook-f {
   color: #1773ea;
@@ -68,9 +61,6 @@ code {
   padding-top: 120px !important;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
-.profileSidebar .contact-details {
-  background-color: #f3f6f6;
-}
 .profileSidebar .contact-details i {
   font-size: 25px;
 }
@@ -96,13 +86,8 @@ code {
   transition: all 0.3s ease-in-out;
 }
 .profileSidebar button:hover {
-  background-color: #f3f6f6;
   border: 1px solid #1b74e4;
   transition: all 0.3s ease-in-out;
-  color: #000 !important;
-}
-.profileSidebar button:hover i {
-  color: #000 !important;
 }
 .profileSidebar button i {
   background-color: transparent !important;
@@ -113,28 +98,16 @@ code {
 }
 .menuSidebar .list-item {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  background-color: #f3f6f6;
   transition: all 0.3s ease-in-out;
 }
 .menuSidebar .list-item:hover {
   transition: all 0.3s ease-in-out;
-  background-color: #1b74e4;
-}
-.menuSidebar .list-item:hover a {
-  color: #fff !important;
-}
-.menuSidebar .list-item:hover a i {
-  color: #fff !important;
 }
 .menuSidebar a {
   font-size: 13px;
 }
 .menuSidebar a i {
-  color: #292828 !important;
   font-size: 32px !important;
-}
-.menuSidebar a:hover {
-  color: #fff !important;
 }
 
 .about .col-md-6:nth-child(1) .card {
@@ -163,6 +136,110 @@ code {
 }
 .about .client {
   background-color: #f3f6f6;
+}
+
+.light-mode .profileSidebar .profile {
+  background-color: #0f172a;
+}
+.light-mode .profileSidebar .profile-designation {
+  background-color: #f3f6f6;
+}
+.light-mode .profileSidebar i {
+  background-color: #f3f6f6;
+}
+.light-mode .profileSidebar .contact-details {
+  background-color: #f3f6f6;
+}
+.light-mode .profileSidebar button:hover {
+  background-color: #f3f6f6;
+  color: #000 !important;
+}
+.light-mode .profileSidebar button:hover i {
+  color: #000 !important;
+}
+.light-mode .menuSidebar .list-item {
+  background-color: #f3f6f6;
+}
+.light-mode .menuSidebar .list-item:hover {
+  background-color: #1b74e4;
+}
+.light-mode .menuSidebar .list-item:hover a {
+  color: #fff !important;
+}
+.light-mode .menuSidebar .list-item:hover a i {
+  color: #fff !important;
+}
+.light-mode .menuSidebar a i {
+  color: #292828 !important;
+}
+.light-mode .menuSidebar a:hover {
+  color: #fff !important;
+}
+.dark-mode .heading {
+  color: #f3f6f6 !important;
+}
+.dark-mode .profileSidebar .profile {
+  background-color: #546f84;
+}
+.dark-mode .profileSidebar h4 {
+  color: #f3f6f6;
+}
+.dark-mode .profileSidebar .profile-designation {
+  color: #a6a6a6 !important;
+  background-color: #1d1d1d !important;
+}
+.dark-mode .profileSidebar i {
+  background-color: #1d1d1d;
+}
+.dark-mode .profileSidebar .card {
+  background-color: #000 !important;
+}
+.dark-mode .profileSidebar .contact-details {
+  background-color: #1d1d1d;
+  color: #f3f6f6;
+}
+.dark-mode .profileSidebar .contact-details .list-items p:nth-child(1) {
+  color: #a6a6a6 !important;
+}
+.dark-mode .profileSidebar .contact-details .icon {
+  background-color: #000 !important;
+}
+.dark-mode .profileSidebar button:hover {
+  background-color: #1d1d1d;
+  color: #fff !important;
+}
+.dark-mode .profileSidebar button:hover i {
+  color: #fff !important;
+}
+.dark-mode .menuSidebar ul {
+  background-color: #000 !important;
+}
+.dark-mode .menuSidebar .list-item {
+  background-color: #1d1d1d;
+}
+.dark-mode .menuSidebar .list-item:hover {
+  background-color: #1b74e4;
+}
+.dark-mode .menuSidebar .list-item:hover a {
+  color: #fff !important;
+}
+.dark-mode .menuSidebar .list-item:hover a i {
+  color: #fff !important;
+}
+.dark-mode .menuSidebar a i {
+  color: #f3f6f6 !important;
+}
+.dark-mode .menuSidebar a:hover {
+  color: #f3f6f6 !important;
+}
+.dark-mode .about .card {
+  background-color: #000 !important;
+}
+.dark-mode .about .card p {
+  color: #a6a6a6 !important;
+}
+.dark-mode .about .col-md-6 .card {
+  border: 1px solid #1d1d1d !important;
 }
 
 /*# sourceMappingURL=style.css.map */

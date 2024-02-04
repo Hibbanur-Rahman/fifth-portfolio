@@ -52,7 +52,6 @@ code {
 
   // margin-top: 100px !important;
   .profile {
-    background-color: $heading-black;
     top: -200px;
 
     img {
@@ -61,13 +60,6 @@ code {
     }
   }
 
-  .profile-designation {
-    background-color: $light-white;
-  }
-
-  i {
-    background-color: $light-white ;
-  }
 
   .fa-facebook-f {
     color: #1773ea;
@@ -123,8 +115,6 @@ code {
   }
 
   .contact-details {
-    background-color: $light-white;
-
     i {
       font-size: 25px;
     }
@@ -160,14 +150,8 @@ code {
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      background-color: $light-white;
       border: 1px solid $primary-blue;
       transition: all 0.3s ease-in-out;
-      color: #000 !important;
-
-      i {
-        color: #000 !important;
-      }
     }
 
     i {
@@ -186,22 +170,10 @@ code {
   .list-item {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 
-    background-color: $light-white;
     transition: all 0.3s ease-in-out;
 
     &:hover {
       transition: all 0.3s ease-in-out;
-
-      background-color: $primary-blue;
-
-      a {
-        color: #fff !important;
-
-        i {
-          color: #fff !important;
-        }
-      }
-
     }
   }
 
@@ -209,12 +181,7 @@ code {
     font-size: 13px;
 
     i {
-      color: #292828 !important;
       font-size: 32px !important;
-    }
-
-    &:hover {
-      color: #fff !important;
     }
   }
 }
@@ -222,18 +189,22 @@ code {
 
 .about {
 
-  .col-md-6:nth-child(1) .card{
+  .col-md-6:nth-child(1) .card {
     background-color: $rose;
   }
-  .col-md-6:nth-child(2) .card{
+
+  .col-md-6:nth-child(2) .card {
     background-color: $catkrill;
   }
-  .col-md-6:nth-child(3) .card{
+
+  .col-md-6:nth-child(3) .card {
     background-color: $catkrill;
   }
-  .col-md-6:nth-child(4) .card{
+
+  .col-md-6:nth-child(4) .card {
     background-color: $rose;
   }
+
   .fa-swatchbook {
     color: #d566ff;
   }
@@ -250,7 +221,172 @@ code {
     color: #269fff;
   }
 
-  .client{
+  .client {
     background-color: $light-white;
+  }
+}
+
+
+
+
+.light-mode {
+  .profileSidebar {
+    .profile {
+      background-color: $heading-black;
+    }
+
+    .profile-designation {
+      background-color: $light-white;
+    }
+
+    i {
+      background-color: $light-white ;
+    }
+
+    .contact-details {
+      background-color: $light-white;
+    }
+
+    button {
+      &:hover {
+        background-color: $light-white;
+        color: #000 !important;
+
+        i {
+          color: #000 !important;
+        }
+      }
+    }
+  }
+  .menuSidebar {
+    .list-item {
+  
+      background-color: $light-white;
+  
+      &:hover {
+      
+        background-color: $primary-blue;
+  
+        a {
+          color: #fff !important;
+  
+          i {
+            color: #fff !important;
+          }
+        }
+  
+      }
+    }
+    a {
+      i {
+        color: #292828 !important;
+      }
+  
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  .about {
+
+  }
+
+
+}
+
+
+.dark-mode {
+  .heading{
+    color: $light-white !important;
+  }
+  .profileSidebar {
+    .profile {
+      background-color:#546f84;
+    }
+    h4{
+      color: $light-white;
+    }
+    .profile-designation {
+      color: #a6a6a6 !important;
+      background-color: #1d1d1d !important;
+    }
+
+    i {
+      background-color: #1d1d1d;
+    }
+
+    .card {
+      background-color: #000 !important;
+    }
+    .contact-details {
+      background-color: #1d1d1d;
+      color: $light-white;
+      .list-items {
+        p:nth-child(1) {
+          color: #a6a6a6 !important;
+        }
+      }
+  
+      .icon {
+        background-color: #000 !important;
+      }
+    }
+
+    button {
+      &:hover {
+        background-color: #1d1d1d;
+        color: #fff !important;
+
+        i {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+  .menuSidebar {
+    ul{
+      background-color: #000 !important;
+    }
+    .list-item {
+  
+      background-color: #1d1d1d;
+  
+      &:hover {
+      
+        background-color: $primary-blue;
+  
+        a {
+          color: #fff !important;
+  
+          i {
+            color: #fff !important;
+          }
+        }
+  
+      }
+    }
+    a {
+      i {
+        color: $light-white !important;
+      }
+  
+      &:hover {
+        color: $light-white !important;
+      }
+    }
+  }
+
+  .about {
+    .card{
+      background-color: #000 !important;
+      p{
+        color: $body-text !important;
+      }
+
+    }
+    .col-md-6 .card {
+      border: 1px solid #1d1d1d !important;
+    }
+  
   }
 }

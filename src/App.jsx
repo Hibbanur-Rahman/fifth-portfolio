@@ -34,7 +34,8 @@ function App() {
         <ProfileSidebar />
         
         <Routes>
-          <Route path="/" element={<About />} />
+        <Route exact path="/fifth-portfolio" element={<About />} />
+          <Route exact path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blogs" element={<Blogs/>} />

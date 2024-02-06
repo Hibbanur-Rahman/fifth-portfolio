@@ -4,13 +4,12 @@ import clientLogo2 from "../assets/images/client-logo-2.png";
 import clientLogo3 from "../assets/images/client-logo-3.png";
 import clientLogo4 from "../assets/images/client-logo-4.png";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
+import "swiper/css";
 
 const About = () => {
-
   return (
     <div className="about m-0 p-0 col-12 col-md-8  d-flex justify-content-center">
       <div className="card rounded-4 m-0 p-2 pt-5 p-md-5 bg-light col-12 col-md-11 border-0 ">
@@ -107,10 +106,18 @@ const About = () => {
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>
+              <img src={clientLogo1} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={clientLogo2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={clientLogo3} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={clientLogo4} alt="" />
+            </SwiperSlide>
             ...
           </Swiper>
         </div>

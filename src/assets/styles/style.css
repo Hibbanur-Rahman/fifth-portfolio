@@ -138,6 +138,10 @@ code {
   background-color: #f3f6f6;
 }
 
+.resume {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+}
 .resume i {
   color: #1b74e4;
 }
@@ -161,6 +165,26 @@ code {
 }
 .resume .skillSection {
   background-color: #f3f6f6 !important;
+}
+.resume .skillSection .skills .skills-list:nth-child(2) .progress-bar {
+  background-color: #fa5252;
+}
+.resume .skillSection .skills .skills-list:nth-child(3) .progress-bar {
+  background-color: #9272d4;
+}
+.resume .skillSection .skills .skills-list:nth-child(4) .progress-bar {
+  background-color: #1b74e4;
+}
+.resume .skillSection .skills .skills-list:nth-child(5) .progress-bar {
+  background-color: #ca56f2;
+}
+.resume .skillSection .badge {
+  background-color: #edf2f2 !important;
+}
+.resume .skillSection .badge p {
+  color: #44566c !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
 }
 
 .light-mode .profileSidebar .profile {

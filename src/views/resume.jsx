@@ -78,14 +78,128 @@ const Resume = () => {
         </div>
 
         <div className="skillSection row m-0 p-5 ">
-            <div className="col-6">
-              <p className="m-0 p-0 fs-4 fw-600">Working Skills</p>
-
+          <div className="skills col-6">
+            <p className="m-0 p-0 fs-4 fw-600">Working Skills</p>
+            <div className="skills-list row m-0 p-0 mt-4 mb-4">
+              <div className="row m-0 p-0 justify-content-between align-items-center">
+                <p className="m-0 p-0 w-auto text-secondary ">Web Design</p>
+                <p className="m-0 p-0 w-auto text-secondary ">85%</p>
+              </div>
+              <div
+                class="progress p-0 m-0 mt-2"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ height: "6px" }}
+              >
+                <div
+                  class="progress-bar rounded-2 "
+                  style={{ width: "85%" }}
+                ></div>
+              </div>
             </div>
-            <div className="col-6">
-              <p className="m-0 p-0 fs-4 fw-600">Knowledges</p>
+            <div className="skills-list row m-0 p-0 mt-4 mb-4">
+              <div className="row m-0 p-0 justify-content-between align-items-center">
+                <p className="m-0 p-0 w-auto text-secondary ">Mobile App</p>
+                <p className="m-0 p-0 w-auto text-secondary ">55%</p>
+              </div>
+              <div
+                class="progress p-0 m-0 mt-2"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ height: "6px" }}
+              >
+                <div
+                  class="progress-bar rounded-2 "
+                  style={{ width: "55%" }}
+                ></div>
+              </div>
+            </div>
+            <div className="skills-list row m-0 p-0 mt-4 mb-4">
+              <div className="row m-0 p-0 justify-content-between align-items-center">
+                <p className="m-0 p-0 w-auto text-secondary ">Illustrator</p>
+                <p className="m-0 p-0 w-auto text-secondary ">65%</p>
+              </div>
+              <div
+                class="progress p-0 m-0 mt-2"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ height: "6px" }}
+              >
+                <div
+                  class="progress-bar rounded-2 "
+                  style={{ width: "65%" }}
+                ></div>
+              </div>
+            </div>
+            <div className="skills-list row m-0 p-0 mt-4 mb-4">
+              <div className="row m-0 p-0 justify-content-between align-items-center">
+                <p className="m-0 p-0 w-auto text-secondary ">PhotoShope</p>
+                <p className="m-0 p-0 w-auto text-secondary ">72%</p>
+              </div>
+              <div
+                class="progress p-0 m-0 mt-2"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style={{ height: "6px" }}
+              >
+                <div
+                  class="progress-bar rounded-2 "
+                  style={{ width: "85%" }}
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div className="col-6">
+            <p className="m-0 p-0 fs-4 fw-600">Knowledges</p>
+            <div className="row m-0 p-0 pt-4">
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0 ">
+                <p className="text-secondary m-0 p-0 fs-6">Digital Design</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Marketing</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Communication</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Social Media</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">JavaScript</p>
+              </div>
               
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Nodejs</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">HTML</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">CSS</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Reactjs</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">MongoDB</p>
+              </div>
+              <div className="badge bg-dark w-auto p-3 m-4 mt-0 mb-3 ms-0">
+                <p className="text-secondary m-0 p-0 fs-6">Bootstrap</p>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>

@@ -226,35 +226,82 @@ code {
   }
 }
 
-.resume{
-  i{
+.resume {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+
+  i {
     color: #1b74e4;
   }
-  .col-md-6:nth-child(1){
-    .card:nth-child(2){
+
+  .col-md-6:nth-child(1) {
+    .card:nth-child(2) {
       background-color: $prink !important;
     }
-    .card:nth-child(3){
+
+    .card:nth-child(3) {
       background-color: $catkrill !important;
     }
-    .card:nth-child(4){
+
+    .card:nth-child(4) {
       background-color: $prink !important;
     }
   }
-  .col-md-6:nth-child(2){
-    .card:nth-child(2){
+
+  .col-md-6:nth-child(2) {
+    .card:nth-child(2) {
       background-color: $catkrill !important;
     }
-    .card:nth-child(3){
+
+    .card:nth-child(3) {
       background-color: $prink !important;
     }
-    .card:nth-child(4){
+
+    .card:nth-child(4) {
       background-color: $catkrill !important;
     }
   }
 
-  .skillSection{
+  .skillSection {
     background-color: $light-white !important;
+
+    .skills {
+      .skills-list:nth-child(2) {
+        .progress-bar {
+          background-color: $theme-secondary;
+        }
+      }
+
+      .skills-list:nth-child(3) {
+        .progress-bar {
+          background-color: #9272d4;
+        }
+      }
+
+      .skills-list:nth-child(4) {
+        .progress-bar {
+          background-color: $theme-primary;
+        }
+      }
+
+      .skills-list:nth-child(5) {
+        .progress-bar {
+          background-color: #ca56f2;
+        }
+      }
+    }
+
+    .badge {
+      background-color: #edf2f2 !important;
+
+      p {
+        color: #44566c !important;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300 !important;
+
+      }
+    }
+
   }
 }
 
@@ -288,30 +335,32 @@ code {
       }
     }
   }
+
   .menuSidebar {
     .list-item {
-  
+
       background-color: $light-white;
-  
+
       &:hover {
-      
+
         background-color: $primary-blue;
-  
+
         a {
           color: #fff !important;
-  
+
           i {
             color: #fff !important;
           }
         }
-  
+
       }
     }
+
     a {
       i {
         color: #292828 !important;
       }
-  
+
       &:hover {
         color: #fff !important;
       }
@@ -321,16 +370,19 @@ code {
 
 
 .dark-mode {
-  .heading{
+  .heading {
     color: $light-white !important;
   }
+
   .profileSidebar {
     .profile {
-      background-color:#546f84;
+      background-color: #546f84;
     }
-    h4{
+
+    h4 {
       color: $light-white;
     }
+
     .profile-designation {
       color: #a6a6a6 !important;
       background-color: #1d1d1d !important;
@@ -343,15 +395,17 @@ code {
     .card {
       background-color: #000 !important;
     }
+
     .contact-details {
       background-color: #1d1d1d;
       color: $light-white;
+
       .list-items {
         p:nth-child(1) {
           color: #a6a6a6 !important;
         }
       }
-  
+
       .icon {
         background-color: #000 !important;
       }
@@ -368,33 +422,36 @@ code {
       }
     }
   }
+
   .menuSidebar {
-    ul{
+    ul {
       background-color: #000 !important;
     }
+
     .list-item {
-  
+
       background-color: #1d1d1d;
-  
+
       &:hover {
-      
+
         background-color: $primary-blue;
-  
+
         a {
           color: #fff !important;
-  
+
           i {
             color: #fff !important;
           }
         }
-  
+
       }
     }
+
     a {
       i {
         color: $light-white !important;
       }
-  
+
       &:hover {
         color: $light-white !important;
       }
@@ -402,16 +459,18 @@ code {
   }
 
   .about {
-    .card{
+    .card {
       background-color: #000 !important;
-      p{
+
+      p {
         color: $body-text !important;
       }
 
     }
+
     .col-md-6 .card {
       border: 1px solid #1d1d1d !important;
     }
-  
+
   }
 }

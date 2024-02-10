@@ -187,6 +187,32 @@ code {
   font-weight: 300 !important;
 }
 
+.contact {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+}
+.contact input {
+  box-shadow: none !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .light-mode .profileSidebar .profile {
   background-color: #0f172a;
 }

@@ -1,16 +1,16 @@
 import "../assets/styles/style.css";
+import blogImg1 from "../assets/images/blog-img-1.png";
+
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/grid';
-import 'swiper/css/pagination';
-
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
 
 // import required modules
-import { Grid, Pagination } from 'swiper/modules';
-
+import { Grid, Pagination } from "swiper/modules";
 
 const Blogs = () => {
   return (
@@ -22,7 +22,7 @@ const Blogs = () => {
         </div>
         <div className="row m-0 p-0">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={2}
             grid={{
               rows: 2,
             }}
@@ -33,15 +33,123 @@ const Blogs = () => {
             modules={[Grid, Pagination]}
             className="mySwiper"
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="blog-slide-1 card m-0 p-3 rounded-4 border border-0 d-flex align-items-center">
+                <div className="image rounded-4 overflow-hidden d-flex  justify-content-center">
+                  <img src={blogImg1} alt="" className="rounded-4 w-100" />
+                </div>
+                <p className="w-100 m-0 p-0 text-secondary fs-6 mt-3">
+                  27 April . Inspiration
+                </p>
+                <h5 className="m-0 p-0 mt-2">
+                  How To Own Your Audience By Creating An Email List.
+                </h5>
+              </div>
+            </SwiperSlide>{" "}
           </Swiper>
         </div>
       </div>

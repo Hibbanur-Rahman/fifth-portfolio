@@ -187,6 +187,42 @@ code {
   font-weight: 300 !important;
 }
 
+.contact {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+}
+.contact input {
+  box-shadow: none !important;
+}
+
+.blogs .swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blogs .swiper-slide {
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+.blogs .image {
+  height: 400px !important;
+  width: 100% !important;
+}
+.blogs .image:hover img {
+  transition: all 0.5s ease-in-out;
+  scale: 1.1;
+}
+.blogs .image img {
+  width: 100% !important;
+  transition: all 0.5s ease-in-out;
+  scale: 1;
+}
+.blogs .blog-slide-1 {
+  background-color: #fff4f4;
+}
+
 .light-mode .profileSidebar .profile {
   background-color: #0f172a;
 }
